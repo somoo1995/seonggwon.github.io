@@ -6,11 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 어성권짱
-title: Backend Engineer
-email: djtjdrnjs@gmail.cm
+name: 장기흥
+title: Your job title
+email: xl7923@naver.com
 # email_title: Email (Email title override)
-phone: 010-2040-6230
+phone: 010-2698-7923
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -35,9 +35,9 @@ googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  - title: Link name
+    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -65,8 +65,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
@@ -124,7 +124,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
@@ -137,4 +137,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
