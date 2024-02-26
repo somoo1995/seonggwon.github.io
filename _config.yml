@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 장기흥
+name: 장기흥1
 title: Your job title
 email: xl7923@naver.com
 # email_title: Email (Email title override)
